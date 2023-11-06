@@ -24,6 +24,6 @@ public abstract class Transport implements Tyres, Engine, Trailer {
     }
 
 
-    public void check() {
-    }
+    public abstract void check();
+
 }

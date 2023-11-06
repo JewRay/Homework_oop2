@@ -20,7 +20,7 @@ public class Truck extends Transport implements Tyres, Engine, Trailer {
         System.out.println("Проверяем двигатель грузовика");
     }
 
-
+    @Override
     public void updateTrailer() {
         System.out.println("Проверяем прицеп у грузовика");
     }
